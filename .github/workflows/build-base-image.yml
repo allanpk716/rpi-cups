@@ -6,7 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: 构建镜像：rpi-cups
-    steps:
+    steps:\
+      -
         name: Checkout
         uses: actions/checkout@master
       
